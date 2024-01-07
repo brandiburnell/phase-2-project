@@ -4,8 +4,20 @@ import { NavLink } from "react-router-dom";
 
 function NavBar() {
     return (
-        <div className="nav-bar">
-            <button>
+        <nav>
+            <NavLink 
+                to="/"
+                className="nav-link"
+            >Huts</NavLink>
+            <NavLink
+                to="/history"
+                className="nav-link"
+            >History</NavLink>
+            <NavLink
+                to="/newhut"
+                className="nav-link"
+            >Add a Hut</NavLink>
+            {/* <button>
                 Huts
             </button>   
             <button>
@@ -13,8 +25,8 @@ function NavBar() {
             </button>
             <button>
                 Add New Hut
-            </button>
-        </div>
+            </button> */}
+        </nav>
     )
 }
 

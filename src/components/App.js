@@ -5,6 +5,7 @@ import NavBar from './NavBar';
 import AllHuts from './AllHuts';
 import History from './History';
 import HutForm from './HutForm';
+import { Outlet } from 'react-router-dom';
 
 
 function App() {
@@ -12,9 +13,10 @@ function App() {
     <div>
         <Header />
         <NavBar />
-        <AllHuts />
+        {/* <AllHuts /> */}
         {/* <History /> */}
         {/* <HutForm /> */}
+        <Outlet />
     </div>
   );
 }

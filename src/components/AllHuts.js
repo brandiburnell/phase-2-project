@@ -17,6 +17,7 @@ function AllHuts() {
                 image={hut.image}
                 capacity={hut.capacity}
                 elevation={hut.elevation}
+                key={hut.id}
             />
         )
     });
