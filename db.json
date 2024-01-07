@@ -1,88 +1,95 @@
 {
-    "huts": [
-      {
-        "id": 1,
-        "name": "Fabi's Hut",
-        "elevation": 10970,
-        "image": "https://huts.org/assets/2023/03/Fabi_hut.jpg",
-        "capacity": 6
-      },
-      {
-        "id": 2,
-        "name": "Lost Wonder Hut",
-        "elevation": 10878,
-        "image": "https://lh3.googleusercontent.com/p/AF1QipPtU8-uQM_ZJhwg7BPYbm2BInhiZwyl1Cnasje_=s1360-w1360-h1020",
-        "capacity": 12
-      },
-      {
-        "id": 3,
-        "name": "Eisman Hut",
-        "elevation": 11180,
-        "image": "https://huts.org/assets/2023/03/Eisemen_hut.jpg",
-        "capacity": 16
-      },
-      {
-        "id": 4,
-        "name": "Aladdin's Lamp Hut",
-        "elevation": 10525,
-        "image": "https://silvertonskihut.com/UserStorage/0002750/Units/00005966/large/xxkh2004056043.jpg",
-        "capacity": 8
-      },
-      {
-        "id": 5,
-        "name": "Broome Hut",
-        "elevation": 11349,
-        "image": "https://huts.org/assets/2023/08/Broome-Hut-2.jpg",
-        "capacity": 16
-      },
-      {
-        "id": 6,
-        "name": "Harry Gates Hut",
-        "elevation": 9693,
-        "image": "https://powderproject.com/assets/photos/ski/7000072_smallMed_1553885931.jpg?cache=1703887258",
-        "capacity": 16
-      },
-      {
-        "id": 7,
-        "name": "Jon Wilson Yurt",
-        "elevation": 10502,
-        "image": "https://hinsdalehauteroute.com/yurt/uploads/1581035092-Wilson%20with%20stars.jpg",
-        "capacity": 8
-      },
-      {
-        "id": 8,
-        "name": "Polar Star Inn",
-        "elevation": 11055,
-        "image": "https://www.firsttracksonline.com/wp-content/uploads/2014/12/2-Polar-Star-Hut.jpg",
-        "capacity": 19
-      },
-      {
-        "id": 9,
-        "name": "Uncle Bud's Hut",
-        "elevation": 11378,
-        "image": "https://huts.org/assets/2023/03/UncleBuds_hut.jpg",
-        "capacity": 16
-      },
-      {
-        "id": 10,
-        "name": "Thelma Hut",
-        "elevation": 11200,
-        "image": "https://images.squarespace-cdn.com/content/v1/5cb77a2cfb22a52b1c950dd6/ee4c3367-8c3e-40a2-8667-e2117daef373/107865256_939877626523000_8918265472596699506_n.jpg",
-        "capacity": 8
-      },
-      {
-        "id": 11,
-        "name": "High Lonesome Hut",
-        "elevation": 9300,
-        "image": "https://huts.org/assets/2023/03/HighLonesome_hut.jpg",
-        "capacity": 12
-      },
-      {
-        "id": 12,
-        "name": "Ken's Cabin",
-        "elevation": 11481,
-        "image": "https://i0.wp.com/summithuts.org/wp-content/uploads/2020/01/Screenshot-2020-01-14-at-3.54.53-PM-1.png?w=496&h=361&ssl=1",
-        "capacity": 2
-      }      
-    ]
-  }
+  "huts": [
+    {
+      "id": 1,
+      "name": "Fabi's Hut",
+      "elevation": 10970,
+      "image": "https://huts.org/assets/2023/03/Fabi_hut.jpg",
+      "capacity": 6
+    },
+    {
+      "id": 2,
+      "name": "Lost Wonder Hut",
+      "elevation": 10878,
+      "image": "https://lh3.googleusercontent.com/p/AF1QipPtU8-uQM_ZJhwg7BPYbm2BInhiZwyl1Cnasje_=s1360-w1360-h1020",
+      "capacity": 12
+    },
+    {
+      "id": 3,
+      "name": "Eisman Hut",
+      "elevation": 11180,
+      "image": "https://huts.org/assets/2023/03/Eisemen_hut.jpg",
+      "capacity": 16
+    },
+    {
+      "id": 4,
+      "name": "Aladdin's Lamp Hut",
+      "elevation": 10525,
+      "image": "https://silvertonskihut.com/UserStorage/0002750/Units/00005966/large/xxkh2004056043.jpg",
+      "capacity": 8
+    },
+    {
+      "id": 5,
+      "name": "Broome Hut",
+      "elevation": 11349,
+      "image": "https://huts.org/assets/2023/08/Broome-Hut-2.jpg",
+      "capacity": 16
+    },
+    {
+      "id": 6,
+      "name": "Harry Gates Hut",
+      "elevation": 9693,
+      "image": "https://powderproject.com/assets/photos/ski/7000072_smallMed_1553885931.jpg?cache=1703887258",
+      "capacity": 16
+    },
+    {
+      "id": 7,
+      "name": "Jon Wilson Yurt",
+      "elevation": 10502,
+      "image": "https://hinsdalehauteroute.com/yurt/uploads/1581035092-Wilson%20with%20stars.jpg",
+      "capacity": 8
+    },
+    {
+      "id": 8,
+      "name": "Polar Star Inn",
+      "elevation": 11055,
+      "image": "https://www.firsttracksonline.com/wp-content/uploads/2014/12/2-Polar-Star-Hut.jpg",
+      "capacity": 19
+    },
+    {
+      "id": 9,
+      "name": "Uncle Bud's Hut",
+      "elevation": 11378,
+      "image": "https://huts.org/assets/2023/03/UncleBuds_hut.jpg",
+      "capacity": 16
+    },
+    {
+      "id": 10,
+      "name": "Thelma Hut",
+      "elevation": 11200,
+      "image": "https://images.squarespace-cdn.com/content/v1/5cb77a2cfb22a52b1c950dd6/ee4c3367-8c3e-40a2-8667-e2117daef373/107865256_939877626523000_8918265472596699506_n.jpg",
+      "capacity": 8
+    },
+    {
+      "id": 11,
+      "name": "High Lonesome Hut",
+      "elevation": 9300,
+      "image": "https://huts.org/assets/2023/03/HighLonesome_hut.jpg",
+      "capacity": 12
+    },
+    {
+      "id": 12,
+      "name": "Ken's Cabin",
+      "elevation": 11481,
+      "image": "https://i0.wp.com/summithuts.org/wp-content/uploads/2020/01/Screenshot-2020-01-14-at-3.54.53-PM-1.png?w=496&h=361&ssl=1",
+      "capacity": 2
+    },
+    {
+      "name": "Eisman",
+      "capacity": "20",
+      "elevation": "9876",
+      "image": "https://upload.wikimedia.org/wikipedia/commons/thumb/e/e5/NGR_2009-021909-D052_%285654697437%29.jpg/1200px-NGR_2009-021909-D052_%285654697437%29.jpg",
+      "id": 13
+    }
+  ]
+}

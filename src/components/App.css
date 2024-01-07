@@ -14,14 +14,11 @@
 }
 
 .App-header {
-  background-color: #282c34;
-  min-height: 100vh;
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: center;
-  font-size: calc(10px + 2vmin);
-  color: white;
+  background-image: url(https://cdn.5280.com/2022/10/BearLakeAreaRMNP_Emerald-Lake_Jason-J-Hatfield_10-_DSC7499.jpg);
+  background-size: cover;
+  height: 300px;
+  background-position: center;
+
 }
 
 .App-link {
