@@ -4,9 +4,8 @@ import "./History.css"
 function History() {
 
     return (
-        <div>
-            <h1>Colorado Backcounty Hut History</h1>
-            <h3>History of the Huts</h3>
+        <div className="history-container">
+            <h1 className="page-title">Colorado Backcounty Hut History</h1>
             <p>
                 For many years the world over, mountain huts have sheltered backcountry travelers such as skiers and mountaineers. In Europe, hundreds of huts hang from mountainsides, and many have been in use for over a century. Likewise, mountain huts are a noble tradition in Canada and the northeast United States. For example, the Carter Notch Hut in New Hampshire was built in 1904, and is perhaps the oldest all-season mountaineering hut still in use in the United States. Early huts in the western U.S. were fewer, but they existed in the northwest and California.
             </p>
@@ -16,6 +15,8 @@ function History() {
             <p>
                 In the 1940s in Colorado, a chain of huts (used as sheep herder shelters and Forest Service guard shacks) cut through what is now the Maroon Bells-Snowmass Wilderness, and other huts were built near the populous Front Range cities such as Denver. The best known of Colorado’s eastern huts is the Fern Lake Lodge, a cabin in Rocky Mountain National Park used by enthusiastic skiers as early as 1916.
             </p>
+            <img src="https://huts.org/wp-content/uploads/2023/04/soldiers.jpg" alt="soldiers"></img>
+
             <p>
                 The first true ski hut (that used mostly for a skiing basecamp) in Colorado was probably created in the late 1940s, when Billie Tagert and his friends fixed up an old miner’s cabin at the head of Castle Creek near Aspen. Tagert and his group loved ski mountaineering, but they knew that skiing with a load of camp gear could turn fun into plain toil. The “hut trend” started by Tagert has changed all that. Since those old-timers skied to Fern Lake and Castle Creek, scores of huts have been built in Colorado. They range from primitive to palatial, but have one thing in common: popularity. In the Colorado backcountry, winter camping is now an option rather than a necessity.
             </p>
@@ -40,6 +41,12 @@ function History() {
             <p>
                 Did the 10th soldiers use huts? No doubt they used cabins and shelters by opportunity, both in Colorado and in Europe. Their most well documented use of a ski hut is when a small group in 1944 bunked for a night in a cabin near the confluence of Halfmoon Creek and North Halfmoon Creek, during their legendary “Trooper” ski traverse from Leadville to Aspen. The cabin was intact up to 2005, when it burned down.
             </p>
+            <p>
+                ALL TEXT CREDIT TO 10th MOUNTAIN DIVISION
+                <br />
+                <a href="https://huts.org/history-of-the-huts/">HISTORY OF THE HUTS</a>
+            </p>
+
         </div>
     );
 }
