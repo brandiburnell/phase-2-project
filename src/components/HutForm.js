@@ -1,4 +1,6 @@
 import React, { useState } from "react";
+import "./HutForm.css";
+
 
 function HutForm({ onAddHut }) {
     const [name, setName] = useState("");
@@ -22,13 +24,14 @@ function HutForm({ onAddHut }) {
             body: JSON.stringify(formData),
         })
             .then(r => r.json())
-            .then(huts => console.log(huts));
+            .then(huts => onAddHut(huts));
     }
 
     return (
         <div className="hut-form-container">
-            <h2>Fill out the form below to add a new hut!</h2>
-            <form className="hut-form" onSubmit={handleSubmit}>
+            <h2 className="page-title">Fill out the form below to add a new hut!</h2>
+            <form className="hut-form" onSubmit={handleSubmit}> 
+                <br />
                 Hut Name: 
                 <input
                     type="text"
@@ -63,6 +66,27 @@ function HutForm({ onAddHut }) {
                 <br />
                 <button className="submit-button">Add Hut</button>
             </form>
+            <div className="holder">
+                <br />
+                <br />
+                <br />
+                <br />
+                <br />
+                <br />
+                <br />
+                <br />
+                <br />
+                <br />
+                <br />
+                <br />
+                <br />
+                <br />
+                <br />
+                <br />
+                <br />
+                <br />
+                <br />
+            </div>
         </div>
     );
 }
