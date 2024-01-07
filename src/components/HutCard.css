@@ -1,12 +1,12 @@
 .hut-card {
+    background-color: whitesmoke;
     text-align: center;
     border: grey solid 1px;
     padding: 1rem;
     width: 15rem;
-    height: 25rem;
+    height: auto;
     display: inline-grid;
     margin: 1rem 2rem;
-    box-shadow: 3px 4px #e04b52;
 }
 
 .hut-image {
@@ -14,4 +14,19 @@
     width:  200px;
     height: 200px;
     object-fit: cover;
+    border-radius: 10px;
+}
+
+.main-info:hover + .extra-info {
+    display: block;
+}
+
+.extra-info {
+    background-color: black;
+    width: 200px;
+    display: none;
+    color: white;
+    text-align: center;
+    justify-self: center;
+    border-radius: 10px;
 }

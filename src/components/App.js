@@ -6,17 +6,16 @@ import AllHuts from './AllHuts';
 import History from './History';
 import HutForm from './HutForm';
 import { Outlet } from 'react-router-dom';
+import Footer from './Footer';
 
 
 function App() {
   return (
-    <div>
+    <div className='App'>
         <Header />
         <NavBar />
-        {/* <AllHuts /> */}
-        {/* <History /> */}
-        {/* <HutForm /> */}
         <Outlet />
+        <Footer />
     </div>
   );
 }

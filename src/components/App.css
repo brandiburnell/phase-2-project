@@ -1,35 +1,7 @@
 .App {
-  text-align: center;
-}
-
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
-}
-
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
-  }
-}
-
-.App-header {
-  background-image: url(https://cdn.5280.com/2022/10/BearLakeAreaRMNP_Emerald-Lake_Jason-J-Hatfield_10-_DSC7499.jpg);
+  background-image: url(https://media.cntraveler.com/photos/60342677a6d0560b658128fe/master/pass/BackcountrySki-2021-GettyImages-930201086-2.jpg);
+  background-repeat: no-repeat;
+  background-attachment: fixed;
   background-size: cover;
-  height: 300px;
-  background-position: center;
-
-}
-
-.App-link {
-  color: #61dafb;
-}
-
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
-  }
+  font-family: 'courier';
 }

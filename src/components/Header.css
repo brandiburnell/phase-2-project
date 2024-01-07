@@ -1,8 +1,18 @@
 .header {
-    background-color: whitesmoke;
+    background-color: transparent;
     background-size: cover;
     background-position: center;
     height: 50px;
     text-align: center;
     margin: auto;
+    font-family: 'monospace';
 }
+
+h1 {
+    margin: 0;
+    text-shadow:0 0 3px whitesmoke, 0 0 7px whitesmoke, 0 0 20px whitesmoke;
+    color: black;
+    background-color: transparent;
+     
+}
+

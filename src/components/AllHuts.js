@@ -1,5 +1,6 @@
 import React, { useState, useEffect } from "react";
 import HutCard from "./HutCard";
+import "./AllHuts.css"
 
 function AllHuts() {
     const [huts, setHuts] = useState([]);
@@ -23,8 +24,8 @@ function AllHuts() {
     });
 
     return (
-        <div>
-            <h1>Huts</h1>
+        <div className="hut-container">
+            <h1 className="page-title">Huts</h1>
             {hutsToDisplay}
         </div>
     );
