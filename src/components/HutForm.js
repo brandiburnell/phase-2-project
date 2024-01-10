@@ -26,7 +26,9 @@ function HutForm() {
             body: JSON.stringify(formData),
         })
             .then(r => r.json())
-            .then(newHut => setHuts([...huts, newHut]));
+            .then(newHut => setHuts([...huts, newHut]))
+            .catch(error => console.error(error));
+            alert("New hut added!");
     }
 
     return (
