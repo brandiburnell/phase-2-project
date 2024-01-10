@@ -19,9 +19,6 @@ function App() {
   }, []);
 
   console.log(huts);
-  function addNewHut(updatedHuts) {
-    setHuts(updatedHuts);
-  }
 
   return (
     <div className='App'>

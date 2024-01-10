@@ -20,7 +20,7 @@ function AllHuts() {
 
     return (
         <div className="hut-container">
-            <h1 className="page-title">Huts</h1>
+            <h1 className="page-title">Huts Visited</h1>
             {hutsToDisplay}
         </div>
     );
