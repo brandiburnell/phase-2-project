@@ -1,12 +1,14 @@
 import React, { useState } from "react";
 import "./HutForm.css";
+import { useOutletContext } from "react-router-dom";
 
 
-function HutForm({ onAddHut }) {
+function HutForm() {
     const [name, setName] = useState("");
     const [elevation, setElevation] = useState("");
     const [capacity, setCapacity] = useState("");
     const [image, setImage] = useState("");
+    const [huts, setHuts] = useOutletContext();
 
     function handleSubmit(e) {
         e.preventDefault();
@@ -24,7 +26,7 @@ function HutForm({ onAddHut }) {
             body: JSON.stringify(formData),
         })
             .then(r => r.json())
-            .then(huts => onAddHut(huts));
+            .then(newHut => setHuts([...huts, newHut]));
     }
 
     return (

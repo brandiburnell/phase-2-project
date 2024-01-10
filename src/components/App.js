@@ -1,5 +1,5 @@
 import './App.css';
-import React from 'react';
+import React, { useState, useEffect } from 'react';
 import Header from './Header';
 import NavBar from './NavBar';
 import AllHuts from './AllHuts';
@@ -10,11 +10,24 @@ import Footer from './Footer';
 
 
 function App() {
+  const [huts, setHuts] = useState([]);
+
+  useEffect(() => {
+    fetch("http://localhost:3000/huts")
+        .then(r => r.json())
+        .then(huts => setHuts(huts));
+  }, []);
+
+  console.log(huts);
+  function addNewHut(updatedHuts) {
+    setHuts(updatedHuts);
+  }
+
   return (
     <div className='App'>
         <Header />
         <NavBar />
-        <Outlet />
+        <Outlet context={[huts, setHuts]} />
         <Footer />
     </div>
   );

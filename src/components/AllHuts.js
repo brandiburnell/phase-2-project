@@ -1,15 +1,10 @@
 import React, { useState, useEffect } from "react";
 import HutCard from "./HutCard";
 import "./AllHuts.css"
+import { Outlet, useOutletContext } from "react-router-dom";
 
 function AllHuts() {
-    const [huts, setHuts] = useState([]);
-
-    useEffect(() => {
-        fetch("http://localhost:3000/huts")
-            .then(r => r.json())
-            .then(huts => setHuts(huts));
-    }, []);
+    const [huts, setHuts] = useOutletContext();
 
     const hutsToDisplay = huts.map((hut) => {
         return (
