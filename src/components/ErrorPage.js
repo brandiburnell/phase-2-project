@@ -12,7 +12,7 @@ function ErrorPage() {
                 <h1>
                     Uh oh! Something went wrong!
                 </h1>
-                <img src="https://live.staticflickr.com/5558/15132604568_0b4153cec2_b.jpg" alt="broken down shack"></img>
+                <img className="center" src="https://live.staticflickr.com/5558/15132604568_0b4153cec2_b.jpg" alt="broken down shack"></img>
             </main>
         </>
     );
