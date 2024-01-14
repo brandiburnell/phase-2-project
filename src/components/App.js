@@ -16,7 +16,7 @@ function App() {
     fetch("http://localhost:3000/huts")
         .then(r => r.json())
         .then(huts => setHuts(huts));
-  }, []);
+  }, huts);
 
   console.log(huts);
 
