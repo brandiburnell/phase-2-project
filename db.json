@@ -83,6 +83,13 @@
       "elevation": 11481,
       "image": "https://i0.wp.com/summithuts.org/wp-content/uploads/2020/01/Screenshot-2020-01-14-at-3.54.53-PM-1.png?w=496&h=361&ssl=1",
       "capacity": 2
+    },
+    {
+      "name": "Artist Hut",
+      "capacity": "6",
+      "elevation": "11544",
+      "image": "https://images.squarespace-cdn.com/content/v1/600dce220eec4a7d051058d7/1612904948779-VSM83S59LLDL522ZQPPG/IMGP0831.jpg",
+      "id": 13
     }
   ]
 }
