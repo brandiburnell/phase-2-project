@@ -4,4 +4,5 @@
   background-attachment: fixed;
   background-size: cover;
   font-family: 'courier';
+  min-height: 100vh;
 }

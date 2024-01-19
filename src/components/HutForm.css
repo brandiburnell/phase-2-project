@@ -34,3 +34,7 @@ form {
     background-color: black;
     color: white;
 }
+
+.hut-form-container {
+    min-height: 100vh;
+}

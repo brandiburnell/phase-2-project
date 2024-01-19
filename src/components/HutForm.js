@@ -17,7 +17,8 @@ function HutForm() {
             capacity: capacity,
             elevation: elevation,
             image: image
-        }
+        };
+        
         fetch("http://localhost:3000/huts", {
             method: "POST",
             headers: {
