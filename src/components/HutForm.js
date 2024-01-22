@@ -39,6 +39,7 @@ function HutForm() {
                 <br />
                 Hut Name: 
                 <input
+                    id="name-input"
                     type="text"
                     value={name}
                     required="required"
@@ -47,6 +48,7 @@ function HutForm() {
                 <br />
                 Hut Elevation: 
                 <input
+                    id="elevation-input"
                     type="number"
                     value={elevation}
                     required="required"
@@ -55,6 +57,7 @@ function HutForm() {
                 <br />
                 Hut Capacity: 
                 <input 
+                    id="capacity-input"
                     type="number"
                     value={capacity}
                     required="required"
@@ -63,6 +66,7 @@ function HutForm() {
                 <br />
                 Hut Image:
                 <input
+                    id="image-input"
                     type="text"
                     value={image}
                     required="required"
@@ -71,27 +75,6 @@ function HutForm() {
                 <br />
                 <button className="submit-button">Add Hut</button>
             </form>
-            <div className="holder">
-                <br />
-                <br />
-                <br />
-                <br />
-                <br />
-                <br />
-                <br />
-                <br />
-                <br />
-                <br />
-                <br />
-                <br />
-                <br />
-                <br />
-                <br />
-                <br />
-                <br />
-                <br />
-                <br />
-            </div>
         </div>
     );
 }
