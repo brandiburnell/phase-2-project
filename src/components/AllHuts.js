@@ -15,7 +15,7 @@ function AllHuts() {
                 elevation={hut.elevation}
                 key={hut.id}
             />
-        )
+        );
     });
 
     return (
